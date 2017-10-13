@@ -1,9 +1,3 @@
 <resources>
     <string name="app_name">Task_1</string>
-    <string name="firstname">FirstName</string>
-    <string name="lastname">LastName</string>
-    <string name="submit">Submit</string>
-    <string name="horizontally">Horizontally =)</string>
-    <item name="visible" type="id"/>
-    <item name="masked" type="id"/>
 </resources>
