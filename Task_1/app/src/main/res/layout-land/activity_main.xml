@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.irisha.task_1.MainActivity"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:text="Horizontally =)" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="558dp"
+        android:layout_height="295dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/openForm"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="onClick"
+            android:text="Button"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/firstnameInput"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="40dp"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:visibility="visible"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/firstnameInput"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/lastnameInput"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-250dp"
+            android:layout_marginTop="100dp"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:visibility="visible"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lastnameInput"
+            tools:ignore="RtlHardcoded" />
+
+    </LinearLayout>
+</LinearLayout>
